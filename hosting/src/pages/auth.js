@@ -38,7 +38,7 @@ class AuthSample extends React.Component {
           <div>
             <TextField label='Password' type='password' name='password' onChange={e => this.setState({password: e.target.value})} />
           </div>
-          <Button onClick={this.signin}>サインイン済み</Button>
+          <Button onClick={this.signin}>サインイン</Button>
         </div>
       );
     }
